@@ -5,17 +5,13 @@ let greeting = ""
   greeting = "This one is on me!"
   return greeting
   }    
-    else 
-        if (feet > 2000){
+    else if (feet > 2000 && feet<=2500){
           greeting = "I will gladly take your thirty bucks."
           return greeting
     
-}   else 
-       if (feet > 2500){
+} else{
        greeting = "No can do."
        return greeting      
-}   else {
-       return "none"
 }
 }
 function ternaryCheckCity(city){
